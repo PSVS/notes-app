@@ -1,6 +1,6 @@
 # Note App API
 
-A medium-complexity FastAPI application for notes with SQLite persistence.
+A FastAPI application for notes with SQLite persistence.
 
 ## Features
 
@@ -13,7 +13,7 @@ A medium-complexity FastAPI application for notes with SQLite persistence.
 ## Run locally
 
 ```bash
-cd /Users/srinivaspullepu/Documents/Repositories/Note-app
+cd ~/Note-app
 python3 -m pip install -r requirements.txt
 python3 -m uvicorn main:app --reload
 ```
