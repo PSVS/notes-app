@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Notes Manager</h1>
+
+    <div class="note-form">
+      <h2>Create New Note</h2>
+      <form id="noteForm">
+        <input type="text" id="title" placeholder="Note Title" required maxlength="255">
+        <textarea id="content" placeholder="Note Content" required maxlength="10000"></textarea>
+        <button type="submit">Create Note</button>
+      </form>
+    </div>
+
+    <div class="notes-list">
+      <h2>All Notes</h2>
+      <div id="notesContainer"></div>
+      <div id="pagination"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
